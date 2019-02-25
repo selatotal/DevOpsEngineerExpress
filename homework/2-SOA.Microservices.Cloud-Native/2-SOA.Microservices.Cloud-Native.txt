@@ -2,5 +2,10 @@ Homework 2-SOA.Microservices.Cloud-Native
 =========================================
 
 1. Why SOA/Microservices is important for DevOps Engineering? 
+It allows to create teams and practices that permits to practice Devops in a deacoupled way
+
 2. If I run my software in containers in bare-metal could I consider my architecture cloud-native? Why?
+In parts. It permit to move your monolith application to cloud, but your application isn't cloud-native. You need to think and create your application to be cloud-native, in terms to have all cloud advantages.
+
 3. Explain how the circuit-breaker pattern works. 
+The basic idea behind the circuit breaker is very simple. You wrap a protected function call in a circuit breaker object, which monitors for failures. Once the failures reach a certain threshold, the circuit breaker trips, and all further calls to the circuit breaker return with an error, without the protected call being made at all. Usually you'll also want some kind of monitor alert if the circuit breaker trips. (Michael Nygard)
