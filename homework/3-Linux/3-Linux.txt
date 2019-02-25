@@ -2,5 +2,8 @@ Homework 3-Linux.pdf
 =====================
 
 1. What the Cron services does in linux? how to use it? 
+Cron is a service to schedule tasks. You create a scheduled task using crontab command and defining a task and the schedule to this task to execute.
+
 2. What is SystemD? How to use it?
+
 3. Why linux is so important to DevOps? Explain Why?
