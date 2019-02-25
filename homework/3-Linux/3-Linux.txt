@@ -5,5 +5,9 @@ Homework 3-Linux.pdf
 Cron is a service to schedule tasks. You create a scheduled task using crontab command and defining a task and the schedule to this task to execute.
 
 2. What is SystemD? How to use it?
+SystemD é o conjunto de serviços que são disponibilizados durante a inicialização do sistema Linux.
+Um serviço pode ser iniciado/parado/verificado o status através do comando service
 
 3. Why linux is so important to DevOps? Explain Why?
+Due Open Source and all cloud providers to use it. Linus is the base of Devops engineering: provisioning, packaging, etc.
+
